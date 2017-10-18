@@ -15,24 +15,24 @@ if magic < 0:
     quit()
 else:
     print("Your attack power is ",attack,"Your magic power is ",magic,".")
-    print("...You are in our database.\nWhat are you?")
-    print("I guess my plan failed. I will be arrested as soon as they hear these recordings.\nBut it will be worth it.")
-    print("\n\n\nTodd teleports into your ship. 'I will defeat you for master alien guy.'\n\n")
-    input()
-    yourHealth=1000
-    toddHealth=1000
-    if toddHealth>0 and yourHealth>0:
-        print("Your health: ",yourHealth,"\nTodd's Health: ",toddHealth)
-        print("\n1: Attack\n2: Use Magic")
-        import random
-        print random.random()
-    elif toddHealth<=0:
-        print("Todd is defeated. H*ck Todd.")
-        print("Y O U  W I N !")
-        print("A new voice comes over the intercom: 'Hello ",name" are you alright?!\nThis is the REAL mission command Todd. A fake alien Todd KO'd me and took over.\nI'll reboot your spaceship now.")
-        print("The end.")
-    elif yourHealth<=0:
-        print("You have died.\n\nGAME OVER\n\n")
-        quit()
-    else:
-        print("You defeated Todd as he defeated you. In your dying breath, you saved earth.\n\n\nGAME OVER\n\n\n")
+    #print("...You are in our database.\nWhat are you?")
+    #print("I guess my plan failed. I will be arrested as soon as they hear these recordings.\nBut it will be worth it.")
+    #print("\n\n\nTodd teleports into your ship. 'I will defeat you for master alien guy.'\n\n")
+    #input()
+    #yourHealth=1000
+    #toddHealth=1000
+    #if toddHealth>0 and yourHealth>0:
+#        print("Your health: ",yourHealth,"\nTodd's Health: ",toddHealth)
+#        print("\n1: Attack\n2: Use Magic")
+#        import random
+#        print random.random()
+#    elif toddHealth<=0:
+#        print("Todd is defeated. H*ck Todd.")
+#        print("Y O U  W I N !")
+#        print("A new voice comes over the intercom: 'Hello ",name" are you alright?!\nThis is the REAL mission command Todd. A fake alien Todd KO'd me and took over.\nI'll reboot your spaceship now.")
+#        print("The end.")
+#    elif yourHealth<=0:
+#        print("You have died.\n\nGAME OVER\n\n")
+#        quit()
+#    else:
+#        print("You defeated Todd as he defeated you. In your dying breath, you saved earth.\n\n\nGAME OVER\n\n\n")
