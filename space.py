@@ -21,12 +21,12 @@ else:
     #input()
     #yourHealth=1000
     #toddHealth=1000
-    #if toddHealth>0 and yourHealth>0:
+    #while toddHealth>0 and yourHealth>0:
 #        print("Your health: ",yourHealth,"\nTodd's Health: ",toddHealth)
 #        print("\n1: Attack\n2: Use Magic")
 #        import random
 #        print random.random()
-#    elif toddHealth<=0:
+#    if toddHealth<=0:
 #        print("Todd is defeated. H*ck Todd.")
 #        print("Y O U  W I N !")
 #        print("A new voice comes over the intercom: 'Hello ",name" are you alright?!\nThis is the REAL mission command Todd. A fake alien Todd KO'd me and took over.\nI'll reboot your spaceship now.")
