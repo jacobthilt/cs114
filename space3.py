@@ -21,16 +21,14 @@ def action(magic, attack, decision):
         if attack<=0:
             attack=0
         print("\nAttack: ",attack,"\nMagic: ",magic,"\n")
-        #print("\n")
     else:
-        print("That choice is invalid. \nAttack: 0\nMagic:0\n\nYou have died.")
+        print("\nThat choice is invalid. \nAttack: 0\nMagic:0\n\nYou have died.")
         quit()
 
 def main():
-
+    magic=50
+    attack=50
     while magic>0 or attack>0:
-        magic=50
-        attack=50
         choice=str(input("Enter 'm' to use magic or 'a' to attack: "))
         action(magic, attack, choice)
 
